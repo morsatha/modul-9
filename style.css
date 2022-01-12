@@ -3,6 +3,32 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+/* ----------------------------------heder styles------------------- */
+.main-head{
+    background-color: #562EFF;
+    
+    width:100%;
+}
+.main-head-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width:50px;
+    height:50px;
+    padding:10px;
+    font-size: 15px;
+}
+
+.ankur-tag{
+    margin-left:340px;
+}
+.ankur-tag a{
+    padding:15px;
+    color: white;
+    text-decoration: none;
+}
 /* top players style */
 main{
     display:flex;
@@ -18,9 +44,7 @@ main{
     border-radius: 6px;
 }
 
-.top-player{
-    
-    
+.top-player{  
     margin-bottom:30px;
 }
 .title{
@@ -131,6 +155,14 @@ hr{
 }
 /* ---------------------------tablet devices-------- */
 @media only screen and (min-width: 688px) and (max-width:992px) {
+    .ankur-tag{
+        /* width:80%; */
+        margin-left:10px;
+        padding:10px;
+    }
+    .logo{
+        display: none;
+    }
     .container{
         width:100%;
     }
